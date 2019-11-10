@@ -7,9 +7,6 @@
 //
 
 import UIKit
-
-import Foundation
-import UIKit
 import PDFKit
 
 class ViewController: UIViewController {
