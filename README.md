@@ -4,13 +4,13 @@ PDFView
 An object that encapsulates the functionality of PDF Kit into a single widget that you can add to your application using Interface Builder.
 
 In this project
-An example for creating PDF Viewer with all options such as go to page and save last page readed at the book.
+An example for creating PDF Viewer with all options such as go to page and save last page that read at the book.
 
 
 # Project Content
 
 - View Controller contains Search and PDF Viewer.
-- Store last page readed using UserDefaults.
+- Store last page that read using UserDefaults.
 - Work with Notifications Center to notify the current page.
 
 
