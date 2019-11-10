@@ -9,7 +9,7 @@ An example for creating PDF Viewer with all options such as go to page and save 
 
 # Project Content
 
-- View Constroller contains search and PDF Viewer.
+- View Controller contains Search and PDF Viewer.
 - Store last page readed using UserDefaults.
 - Work with Notifications Center to notify the current page.
 
