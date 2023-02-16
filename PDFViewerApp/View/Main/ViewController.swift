@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var pdfView: PDFView? = nil
     
     let MIN_PAGE = 0
-    let MAX_PAHE = 290
+    let MAX_PAGE = 290
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     @IBAction func btnSearchClicked(_ sender: Any) {
         if txtFldPage.text != "" {
             let pageNumber: Int = Int(txtFldPage.text ?? "1") ?? 1
-            if pageNumber >= MIN_PAGE && pageNumber <= MAX_PAHE {
+            if pageNumber >= MIN_PAGE && pageNumber <= MAX_PAGE {
                  initDocument(pageNumber - 1)
             } else {
                 showAlert("This page not exists in the book!")
